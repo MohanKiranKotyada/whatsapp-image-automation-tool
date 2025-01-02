@@ -8,8 +8,8 @@ import os
 import pandas as pd
 
 # Paths
-image_folder = 'images'
-excel_file = '1.xlsx'
+image_folder = 'images'    #the path of the directory that contains the images
+excel_file = '1.xlsx'     #the path for the excel sheet
 
 # Read phone numbers
 df = pd.read_excel(excel_file)
